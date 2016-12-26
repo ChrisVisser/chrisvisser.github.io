@@ -1,0 +1,249 @@
+body {
+	background: url(images/background2.jpg) repeat;
+	color:#bbbbbb;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	margin: 0px;
+	padding: 0px;
+	background-color:black;
+	text-align: center;
+}
+.clear{clear:both;}
+* {margin: 0px;padding: 0px;}
+#container {
+	background-color:black;
+	background-image: url(images/main_background.gif);
+	background-repeat: repeat-y;
+	margin: 0px auto;
+	text-align: center;
+	width: 1000px;
+	clear: both;
+}
+
+a{color:#3399ff;}
+a:hover{color:#7bb3fe;}
+
+/********************** Header ***************************/
+#header {
+	background-image: url(images/eyes2.jpg);
+	margin: 0px auto;
+	width:950px;
+	min-height 250px;
+	position:relative;
+	background-repeat: repeat-no;
+	text-align: center;
+}
+#header a{
+	position:relative;
+}
+#buttonsl {
+	background-color: black;
+	float: left;
+	margin:0px 0px 0px 95px;
+	clear: both;
+	text-align: left;
+}
+#buttonsr {
+	background-color: black;
+	float: right;
+	margin: -80px 80px 0px 0px;
+	clear: both;
+	text-align: right;
+}
+#header ul {
+	list-style-type: none; 
+	list-style-image: none; 
+}
+#header li {
+	display: inline; 
+	padding: 0px 200px 0px 0px; 
+	text-align: center;
+}
+#header a {text-decoration:none;
+}
+#header a{
+	font-family: georgia, Helvetica;
+	font-size: 70px;
+	font-weight: 500px;
+}
+#socialmedia{
+	background-color: black;
+	margin: 0px 0px 0px 0px;
+	width:470px;
+	float: left;
+	text-align: left;
+}
+#ticketspic {
+	background-color: black;
+	margin: 0px 0px 0px 0px;
+	width:470px;
+	float: right;
+	text-align: right;
+}
+#ticketspic h3 {	
+	font-family: georgia;
+	margin: 10px 0px 0px 0px;
+	font-size: 30px;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bolder;
+	color: #7bb3fe;
+}
+	
+#ticketstext {
+	margin: 10px 10px;
+	width:675px;
+	text-align: left;
+	float: left;
+	padding: 10px;
+	background-color:black;
+}
+#ticketspaypal {
+	margin: 0px 0px;
+	width: 200px;
+	align: left;
+	float: right;
+	padding: 10px;
+	background-color:black;
+}
+/********************** Tickets Main ***************************/
+#ticketsmain {
+	background-color:black;
+	margin: 0px auto;
+	width:950px;
+	min-height:475px;
+	position:relative;
+	text-align: left;
+}
+#ticketsmain h4{
+	padding:10px 50px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 28px;
+	font-weight: bolder;
+	text-transform: uppercase;
+	color: #e4b889;
+	text-align: center;
+}
+#ticketsmain h3{
+	padding-top:10px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 28px;
+	font-weight: bolder;
+	text-transform: uppercase;
+	color: #e4b889;
+	text-align: right;
+}
+#ticketsmain h2{
+	padding-left:10px;
+	padding-top:10px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	width:530px;
+	font-weight: bolder;
+	text-transform: uppercase;
+	color: #7bb3fe;
+	text-align: left;
+}
+#ticketsmain h1{
+	padding-left:10px;
+	font-family: Arial, Helvetica, sans-serif;
+	width:530px;
+	font-size: 12px;
+	text-align: left;
+}
+#ticketsmain h5{
+	padding:10px 0px 0px 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 28px;
+	width:530px;
+	font-weight: bolder;
+	text-transform: uppercase;
+	color: #e4b889;
+	text-align: left;
+}
+
+/********************** Welcome ***************************/
+#welcome {
+	width:950px;
+	margin: 0px auto;	
+	background-image:url(images/line.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+#welcome h3{
+	margin: 0px 10px 30px 0px;
+	font-family: georgia;
+	font-size: 24px;
+	font-weight: bolder;
+	text-transform: uppercase;
+	text-align: center;
+	color: #bbbbbb;
+}
+#welcome p{
+margin: 0px 10px 10px 0px; width:550px;
+}
+#welcome a{	
+	font-family: georgia;
+	font-size: 18px;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bolder;
+	color: #7bb3fe;
+}
+
+/********************** News ***************************/
+#news {
+	margin: 0px auto;
+	width: 950px;
+	background-image:url(images/line.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-color: black;
+}
+#news h3{
+	margin: 10px 0px 15px 0px;
+	padding-right:10px;
+	font-family: georgia;
+	font-size: 14px;
+	text-align: left;
+	color: #bbbbbb;
+}
+#news h4{
+	margin: 10px 0px 15px 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 28px;
+	font-weight: #e4b8893399ff;
+	text-align: center;
+}
+.newsitem{float:left; display:inline; background-color:left;}
+.newsitem a{}
+.newsitem img{float:left;}
+.newsitem span{
+	color:#7bb3fe;
+	font-size: 9px;
+	font-weight: 900;
+	background-color: black;
+}
+.newsitem p{margin: 10px 10px 15px 0px;}
+
+#right_content {
+	margin: 0px 0px 0px 0px;
+	padding-right: 0px;
+	float: right;
+	clear: both;
+	text-align: center;
+}
+{
+	background-image:url(images/line.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding: 1px 0px 0px 110px;
+}
+#dj img{border:0px;}
+#dj a{border:0px;float:left;}
+#dj a:hover{}
+/********************** Footer ***************************/
+#footer {
+	padding: 10px 10px 10px 10px;
+	text-align: center;
+}
